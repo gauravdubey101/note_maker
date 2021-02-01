@@ -54,22 +54,30 @@
 
       <div class="card">
         <div class="card-body">
+          <!-- //title -->
+          <div class="form-group">
+            <h5 >Add title</h5>
+            <input
+              type="text"
+              class="form-control"
+              id="addTitle"
+              aria-describedby="title"
+              placeholder="Enter Title"
+            />
+          </div>
+
           <h5 class="card-title">Add a note</h5>
           <div class="form-group">
             <textarea class="form-control" id="addTxt" rows="3"></textarea>
           </div>
-          <br>
-          <button  id="addBtn" class="btn btn-primary">Add Note</button>
+          <br />
+          <button id="addBtn" class="btn btn-primary">Add Note</button>
         </div>
       </div>
-      <hr>
+      <hr />
       <h1>Your Notes</h1>
-      <hr>
-      <div class="row container-fluid" id="notes">    
-            
-
-
-      </div>
+      <hr />
+      <div class="row container-fluid" id="notes"></div>
     </div>
 
     <script
